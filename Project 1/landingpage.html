@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>AFC</title>
+        <link rel="icon" href="C:\CSS\Project 1\download.png">
+        <link rel="stylesheet" href="landingpage.css">
+    </head>
+
+    <body>
+        <div id="main">
+        <div class="header">
+        <nav>
+           <img src="C:\CSS\Project 1\preview-page0.jpg">
+           <h2>Ajay Fried Chciken</h2>
+           <ul>
+              <li>Home</li>
+              <li>About</li>
+              <li>Contact</li>
+              <li onclick="feedback()">Feedback</li>
+              <li onclick="sign()">Sign in</li>
+           </ul>
+        </nav>   
+        </div>
+
+        <div class="about">
+            <h1>About Us</h1>
+            <img class="a" src="C:\CSS\Project 1\360_F_316734101_laf3uBC2HI6Iw4ovU6FaDk6WfIibqoVS.jpg">
+            <b class="b"><i>Welcome to Ajay Fried Chicken, where we’ve been serving up delicious, crispy fried chicken since 2020! At our shop, we pride ourselves on offering a delectable menu that showcases our passion for great food and exceptional customer service. Our journey began with a simple yet ambitious goal: to create the best fried chicken experience in town. Over the years, we've perfected our recipes and cooking techniques, ensuring every piece of chicken is golden, juicy, and bursting with flavor. Whether you're craving a classic drumstick, a spicy wing, or a hearty chicken sandwich, we've got you covered. Our commitment to quality extends beyond our kitchen, as we strive to provide a warm and welcoming atmosphere for all our guests. Join us at Ajay Fried Chicken and taste the difference that dedication and love for food can make. We can't wait to serve you!</i></b>
+        </div>
+
+        <div class="search" style="background-color: red;">
+            <input type="search" placeholder="Search" class="one">
+        </div>
+
+        <div class="dish" style="text-align: center; background-color: red;">
+            <h1 style="color: white; padding-top: 10px;">Dishes</h1>
+            <div class="box">
+                <img src="C:\CSS\Project 1\Fried-Chicken-Pieces-1.jpg" class="C">
+                 <p>Fried Chicken</p>
+            </div>
+            <div class="box">
+                <img src="C:\CSS\Project 1\istockphoto-520134277-612x612.jpg"class="D">
+                <p>Burger With French Fries</p>
+            </div>
+            <div class="box">
+                <img src="C:\CSS\Project 1\air-fryer-chicken-nuggets-copy-3-500x500.jpg" class="E">
+                <p>Chicken Nuggets</p> 
+            </div>
+            <h1 style="color: white; padding-top: 10px;">Combo Offers</h1>
+            <div class="combo">
+                <img src="C:\CSS\Project 1\images (1).jfif " class="x">
+                <p>Burger,Fried Chicken,French Fries @200</p>
+            </div>
+            <div class="combo">
+                <img src="C:\CSS\Project 1\9646aae7295781e2460451b15416c168.jpg" class="y">
+                <p>Bucket Chicken 10pcs @399</p>
+            </div>
+            <div class="combo">
+                <img src="C:\CSS\Project 1\91e241_af4c99a29cff48e6bcfba812b34a9e0b~mv2.webp" class="z">
+                <p>Burger and Sandwich's @249</p>
+            </div>
+
+        </div>
+
+        <div class="footer">
+             <div class="contact">
+                  <h1>Contact</h1> <br>               
+                   <h4>📱Phone:7397177540</h4> <br>
+                   <h4>📞Telephone:04563-245360</h4><br>
+                   <h4>📧E-Mail:ajayrahul809@gmail.com</h4><br>
+                   <h4><a href="https://www.instagram.com/">Instagram</a></h4><br>
+                   <h4><a href="C:\CSS\Project 1\landingpage.html">Twitter</a></h4><br>
+                   <h4>9th Street Avenue,Rajapalayam,Tamilnadu</h4>
+             </div>
+        </div>
+        </div>
+        <div id="div1">
+           <img src="C:\Web Develop\javascript\Login Page\360_F_316734101_laf3uBC2HI6Iw4ovU6FaDk6WfIibqoVS.jpg" id="img1">
+           <h2 class="txt">Log in</h2>
+           <h4 class="txt1">Username</h4>
+           <input type="text" id="inp1" placeholder="Enter your Name" onkeyup="namevalidate()">
+           <p id="p1">Invalid Name</p>
+           <h4 class="txt1">Password</h4>
+           <input type="password" id="inp2" placeholder="Enter Your Password" onkeyup="passvalidate()">
+           <p id="p2">Invalid Password</p>
+           <button id="button" onclick="submit()">Submit</button>
+        </div>
+        <div id="Feedback">
+            <h2 id="t">Feedback</h2>
+            <input type="text" placeholder="Write Your Feedback" id="ft">
+            <button onclick="sub()" id="sub2">Submit</button>
+        </div>
+        <div id="blur"></div>
+        <div id="blur1"></div>
+    </body>
+    <script src="landingpage.js"></script>
+</html>
